@@ -15,6 +15,7 @@ var ErrorModal = React.createClass({
         modal.open();
     },
     render: function() {
+        console.log("Error Modal");
         var {title, message} = this.props;
 
         return(
